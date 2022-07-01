@@ -1,6 +1,6 @@
 {
   "name": "@fcprexx/url-to-image",
-  "version": "1.0.1-alpha.1+39a45ed",
+  "version": "1.0.1-alpha.2+a18d160",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,5 +24,5 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "39a45edc4ca6362e0c8ccdb27418c0b300d9d5db"
+  "gitHead": "a18d160c1d703a477d1660c83a8a2ad39842063d"
 }

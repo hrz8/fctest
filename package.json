@@ -1,10 +1,11 @@
 {
   "name": "fcprexx",
   "scripts": {
-    "build": "yarn build:url-to-image",
+    "build": "yarn build:url-to-image && yarn build:image-domination",
     "build:url-to-image": "cd packages/url-to-image && yarn build && cd ..",
-    "publish": "yarn build && lerna publish",
-    "publish:canary": "yarn build && lerna publish --canary"
+    "build:image-domination": "cd packages/image-domination && yarn build && cd ..",
+    "publish:package": "yarn build && lerna publish",
+    "publish:package:canary": "yarn build && lerna publish --canary"
   },
   "devDependencies": {
     "lerna": "^5.1.6"

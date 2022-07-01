@@ -1,6 +1,6 @@
 {
   "name": "@fcprexx/image-domination",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.2+a18d160",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,5 +22,6 @@
     "typescript": "^4.7.4"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "a18d160c1d703a477d1660c83a8a2ad39842063d"
 }
