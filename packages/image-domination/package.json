@@ -1,6 +1,6 @@
 {
-  "name": "@fcprexx/url-to-image",
-  "version": "1.0.1-alpha.1+39a45ed",
+  "name": "@fcprexx/image-domination",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,15 +14,13 @@
     "build": "tsc"
   },
   "dependencies": {
-    "axios": "^0.27.2"
+    "image-size": "^1.0.1"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.0",
     "@types/node": "^18.0.0",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   },
   "author": "",
-  "license": "ISC",
-  "gitHead": "39a45edc4ca6362e0c8ccdb27418c0b300d9d5db"
+  "license": "ISC"
 }
