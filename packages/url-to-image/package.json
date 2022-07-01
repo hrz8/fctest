@@ -1,6 +1,6 @@
 {
   "name": "@fcprexx/url-to-image",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0+53d29f7",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,12 +13,13 @@
     "build": "tsc"
   },
   "dependencies": {
-    "node-fetch": "^3.2.6"
+    "axios": "^0.27.2"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/node": "^18.0.0",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   },
-  "gitHead": "0b8b389063eedd424e04e293be3f870ebd78c9cf"
+  "gitHead": "53d29f749a485b9784deb9259f02ed1d17ada854"
 }
